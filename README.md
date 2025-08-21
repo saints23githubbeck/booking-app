@@ -1,66 +1,68 @@
 # **Booking App**
 
 # **Project Structure**
+```bash
 booking-app/
 |__app
-|  |
+| |
 |__booking/
-|   |
-├   src/
-│   ├── main.ts
-│   ├── bookings/
-│   │   ├── bookings.controller.ts
-│   │   ├── bookings.controller.spec.ts
-│   │   ├── bookings.service.ts
-│   │   ├── bookings.service.spec.ts
-│   │   ├── dto/booking.dto.ts
-│   |── bookings.module.ts
-├   |──test
-├   |──tsconfig.app.json
+| |
+├ src/
+│ ├── main.ts
+│ ├── bookings/
+│ │ ├── bookings.controller.ts
+│ │ ├── bookings.controller.spec.ts
+│ │ ├── bookings.service.ts
+│ │ ├── bookings.service.spec.ts
+│ │ ├── dto/booking.dto.ts
+│ |── bookings.module.ts
+├ |──test
+├ |──tsconfig.app.json
 |__search/
-|   |
-├   src/
-│       search/
-│   │   ├── search.controller.ts
-│   │   ├── search.controller.spec.ts
-│   │   ├── search.service.ts
-│   │   ├── search.service.spec.ts
-│   │   ├── dto/searchProfessional.dto.ts
-│   |── search.module.ts
-├   |──test
-├   |──tsconfig.app.json
+| |
+├ src/
+│ search/
+│ │ ├── search.controller.ts
+│ │ ├── search.controller.spec.ts
+│ │ ├── search.service.ts
+│ │ ├── search.service.spec.ts
+│ │ ├── dto/searchProfessional.dto.ts
+│ |── search.module.ts
+├ |──test
+├ |──tsconfig.app.json
 └── libs/
-|      database/
-|      |  └── src/
-|      |    └── entity/
-│      |   │   ├── professional.entity.ts
-│      |   │   ├── booking.entity.ts
-│      |   │   ├── idempotency.entity.ts
-│      |   │   ├── availability.entity.ts
-│      |   │   ├── base.entity.ts
-├      |   ├──database.module.ts
-├      |   ├──index.ts
-├      ├── tsconfig.app.json
+| database/
+| | └── src/
+| | └── entity/
+│ | │ ├── professional.entity.ts
+│ | │ ├── booking.entity.ts
+│ | │ ├── idempotency.entity.ts
+│ | │ ├── availability.entity.ts
+│ | │ ├── base.entity.ts
+├ | ├──database.module.ts
+├ | ├──index.ts
+├ ├── tsconfig.app.json
 └── utils/
-|       | src
-|       ├──constraints/
-|       |    |  ├── env.ts
-│       |    |  ├── ssl-config.ts
-|       ├──filters/
-|       |    |  ├── validation-exception.filter.ts
-|       |    |  ├── enums.ts
-|       ├──generics/
-|       |    |  ├── structure-response.ts
-|       |    |  ├── query-params.ts
-├       |    ├──database.module.ts
-├       ├──index.ts
-├       ├──utils.module.ts
-├── package.json 
+| | src
+| ├──constraints/
+| | | ├── env.ts
+│ | | ├── ssl-config.ts
+| ├──filters/
+| | | ├── validation-exception.filter.ts
+| | | ├── enums.ts
+| ├──generics/
+| | | ├── structure-response.ts
+| | | ├── query-params.ts
+├ | ├──database.module.ts
+├ ├──index.ts
+├ ├──utils.module.ts
+├── package.json
 └── README.md
 └── pnpm-lock.yaml
 └── tsconfig.json
 └── nest-cli.json
 └──gitignore
+```
 
 # **Microservices Architecture**
 Microservices architecture allows scaling individual components
